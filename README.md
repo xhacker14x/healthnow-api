@@ -2,15 +2,15 @@
 
 ###
 
-1. Clone the git repository
+1. Clone the git repository <br />
    - git clone https://github.com/xhacker14x/healthnow-calculator.git
 
-2. Open CMD and go to the directory, and install all dependencies using the command below:
+2. Open CMD and go to the directory, and install all dependencies using the command below: <br />
    - npm i
 
-3. Install XAMPP and Run it
+3. Install XAMPP and Run it <br />
 
-4. Create Database called "test" inside phpmyadmin
+4. Create Database called "test" inside phpmyadmin <br />
    
    NOTE: 
    Don't put password for root user. See below for ref: <br />
@@ -20,13 +20,13 @@
    Password  =  <br />
    DB Name   = test   <br />
      	
-5. Create Database Table using the command below:
+5. Create Database Table using the command below: <br />
    - npm run createtbl
 
-6. Populate data using the command below:
+6. Populate data using the command below: <br />
    - npm run seed
 
-7. Launch the app
+7. Launch the app <br />
    - npm run dev
 
 
@@ -35,10 +35,10 @@ NOTE:
 Use postman or any other api tools for testing
 
 
-===Add New User=== 
+===Add New User===  <br />
 
-Endpoint url = localhost:5000/users/create
-Method = POST
+Endpoint url = localhost:5000/users/create <br />
+Method = POST <br />
 
 Body Json:
 
@@ -54,10 +54,10 @@ Body Json:
 }
 
 
-===Edit User=== 
+===Edit User===  <br />
 
-Endpoint url = localhost:5000/users/update/{id}
-Method = PATCH
+Endpoint url = localhost:5000/users/update/{id} <br />
+Method = PATCH <br />
 
 Body Json:
 
@@ -73,30 +73,30 @@ Body Json:
 }
 
 
-===Delete User=== 
+===Delete User===  <br />
 
-Endpoint url = localhost:5000/users/delete/{id}
-Method = DELETE
+Endpoint url = localhost:5000/users/delete/{id} <br />
+Method = DELETE <br />
 
 
 ===Delete Multiple Users=== 
 
-Endpoint url = localhost:5000/users/delete/ids
-Method = POST
+Endpoint url = localhost:5000/users/delete/ids <br />
+Method = POST <br />
 
 Body Json:
 
 {
     "ids": [1,2,3]
 }
-
+<br />
 NOTE:
 Make sure the ids you pass are existing
 
 
 ===View All Users=== 
 
-Endpoint url = localhost:5000/users
+Endpoint url = localhost:5000/users <br />
 Method = GET
 
 
