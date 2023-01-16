@@ -91,7 +91,7 @@ Body Json:
 } <br />
 <br />
 NOTE:
-Make sure the ids you pass are existing
+Make sure the ids you pass are existing and the method is POST
 
 
 ===View All Users=== 
