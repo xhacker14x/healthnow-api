@@ -13,12 +13,12 @@
 4. Create Database called "test" inside phpmyadmin
    
    NOTE: 
-   Don't put password for root user. See below for ref:
+   Don't put password for root user. See below for ref: <br />
 
-   DB Host   = localhost
-   Username  = root
-   Password  =
-   DB Name   = test   
+   DB Host   = localhost <br />
+   Username  = root <br /> 
+   Password  =  <br />
+   DB Name   = test   <br />
      	
 5. Create Database Table using the command below:
    - npm run createtbl
