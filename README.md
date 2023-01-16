@@ -88,7 +88,7 @@ Body Json:
 
 {
     "ids": [1,2,3]
-}
+} <br />
 <br />
 NOTE:
 Make sure the ids you pass are existing
