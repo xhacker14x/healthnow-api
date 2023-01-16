@@ -5,7 +5,7 @@ const router = express.Router()
 // CREATE
 router.post('/create', (req, res) => {
 	const data = req.body
-	const query = "INSERT INTO users (firstname,lastname) values(?,?,?,?,?,?,?,?)"
+	const query = "INSERT INTO users (firstname,lastname, address, postcode, contact_phone_number, email, username, password) values(?,?,?,?,?,?,?,?)"
 	connection.query(query, [data.firstname, data.lastname, data.address, data.postcode, data.contact_phone_number, data.email, data.username, data.password], (err, results) => {
 		if(!err){
 			return res.status(200).json({message: "Use Added Successfully"})
