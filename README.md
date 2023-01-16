@@ -3,7 +3,7 @@
 ###
 
 1. Clone the git repository <br />
-   - git clone https://github.com/xhacker14x/healthnow-calculator.git
+   - git clone https://github.com/xhacker14x/healthnow-api.git
 
 2. Open CMD and go to the directory, and install all dependencies using the command below: <br />
    - npm i
